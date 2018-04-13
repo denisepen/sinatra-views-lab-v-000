@@ -7,9 +7,9 @@
   <body>
     <h1>Today</h1>
     <% time= Time.now %>
-    <% time.wday == 4  %>
+    <% if time.wday == 4  %>
     <% timeday = "Thursday" %>
-    <% time.month == 4  %>
+    <% if time.month == 4  %>
     <% timemonth = "April" %>
     <p><%="The date is #{timeday}, #{timemonth} #{time.day}, #{time.year}." %></p>
 
