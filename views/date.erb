@@ -9,8 +9,10 @@
     <% time= Time.now %>
     <% if time.wday == 4  %>
     <% timeday = "Thursday" %>
+    <% end %>
     <% if time.month == 4  %>
     <% timemonth = "April" %>
+    <% end %>
     <p><%="The date is #{timeday}, #{timemonth} #{time.day}, #{time.year}." %></p>
 
   </body>
