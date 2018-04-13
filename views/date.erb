@@ -13,10 +13,10 @@
     <% if time.month == 4  %>
     <% timemonth = "April" %>
     <% end %>
-    <% time.strftime %>
+    <% time.strftime("%Y-%m-%d %H:%M:%S") %>
     <p><%="The date is #{timeday}, #{timemonth} #{time.day}, #{time.year}." %></p>
     <!-- <p><%= time.inspect %></p> -->
-    
-  
+
+
   </body>
 </html>
